@@ -1,0 +1,6 @@
+# 改檔前的備份與執行紀錄不進版控
+*.bak-*
+teams_daily_reminder.log
+_e2e_old.html
+__pycache__/
+_teams_備份/

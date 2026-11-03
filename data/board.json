@@ -1,0 +1,784 @@
+{
+ "version": 1,
+ "updatedAt": "2026-11-03 14:28",
+ "settings": {
+  "holidays": "2025-01-01 元旦\n2025-01-27 春節(彈)\n2025-01-28 春節\n2025-01-29 春節\n2025-01-30 春節\n2025-01-31 春節\n2025-02-28 228\n2025-04-03 清明節\n2025-04-04 兒童節\n2025-05-01 勞動節\n2025-05-30 端午節\n2025-07-07 丹娜絲颱風\n2025-09-29 孔子誕辰紀念日\n2025-10-06 中秋節\n2025-10-10 國慶日\n2025-10-24 古寧頭大捷紀念日\n2025-12-25 行憲紀念日\n2026-01-01 元旦\n2026-02-16 除夕\n2026-02-17 春節\n2026-02-18 春節\n2026-02-19 春節\n2026-02-20 春節\n2026-02-27 228補假\n2026-04-03 清明節\n2026-04-06 兒童節\n2026-05-01 勞動節\n2026-06-19 端午節\n2026-09-25 中秋節\n2026-09-28 孔子誕辰紀念日\n2026-10-24 古寧頭大捷紀念日\n2026-12-25 行憲紀念日\n2027-01-01 元旦\n2027-02-04 小年夜\n2027-02-05 除夕\n2027-02-08 春節\n2027-02-09 春節\n2027-02-10 春節\n2027-03-01 228補假\n2027-04-05 清明節(補)\n2027-04-06 兒童節(補)\n2027-04-30 勞動節(補)\n2027-06-09 端午節\n2027-09-15 中秋節\n2027-09-28 孔子誕辰紀念日\n2027-10-11 國慶日(補)\n2027-10-25 光復節(補)\n2027-12-24 行憲紀念日(補)",
+  "makeupDays": ""
+ },
+ "people": [
+  {
+   "id": "p_cynthia",
+   "name": "初儀君",
+   "role": "企劃",
+   "kind": "person",
+   "dept": "企劃"
+  },
+  {
+   "id": "p_melodie",
+   "name": "蕭妍安",
+   "role": "營運",
+   "kind": "person",
+   "dept": "營運"
+  },
+  {
+   "id": "p_laura",
+   "name": "賴巧容",
+   "role": "美術",
+   "kind": "person",
+   "dept": "美術"
+  },
+  {
+   "id": "p_group",
+   "name": "高上人",
+   "role": "企劃",
+   "kind": "person",
+   "dept": "企劃"
+  }
+ ],
+ "projects": [
+  {
+   "id": "pj_666",
+   "name": "SIXSIXSIX",
+   "platform": "星城｜AW 外包（AAA Game Art Studio）",
+   "template": "xc2027",
+   "anchorDate": "2027-10-06",
+   "anchorLabel": "完成時間（進測）",
+   "launchDate": "",
+   "size": "M",
+   "rdSize": "M",
+   "stages": [
+    {
+     "id": "st_misc",
+     "name": "庶務",
+     "color": "#8a94a8",
+     "group": "prep"
+    },
+    {
+     "id": "st_team",
+     "name": "分工",
+     "color": "#d08a2e",
+     "group": "prep"
+    },
+    {
+     "id": "st_vendor",
+     "name": "廠商",
+     "color": "#159c8c",
+     "group": "prep"
+    },
+    {
+     "id": "st1",
+     "name": "Excel",
+     "group": "prod",
+     "color": "#4c6fe0"
+    },
+    {
+     "id": "st2",
+     "name": "2D/3D",
+     "group": "prod",
+     "color": "#e0873a"
+    },
+    {
+     "id": "st3",
+     "name": "音樂音效",
+     "group": "prod",
+     "color": "#2fa287"
+    },
+    {
+     "id": "st4",
+     "name": "多語系",
+     "group": "prod",
+     "color": "#a35fd0"
+    },
+    {
+     "id": "st5",
+     "name": "FX",
+     "group": "prod",
+     "color": "#d65a64"
+    },
+    {
+     "id": "st6",
+     "name": "RD",
+     "group": "prod",
+     "color": "#3a9cc4"
+    },
+    {
+     "id": "st7",
+     "name": "QC",
+     "group": "prod",
+     "color": "#b08a2a"
+    },
+    {
+     "id": "st8",
+     "name": "上架",
+     "group": "prod",
+     "color": "#6a7a96"
+    }
+   ],
+   "cards": [
+    {
+     "id": "c_nda",
+     "title": "NDA 簽署",
+     "desc": "法務 EF 第二階段中。完成前不提供企劃、遊戲邏輯、美術素材與 DEMO。",
+     "stageId": "st_vendor",
+     "status": "blocked",
+     "owners": [
+      "p_melodie"
+     ],
+     "reviewers": [],
+     "start": "",
+     "due": "",
+     "checklist": [],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 1,
+     "tags": []
+    },
+    {
+     "id": "c_slots",
+     "title": "提供會議時段",
+     "desc": "台灣下午～傍晚的時段給 Melodie，配合歐洲團隊。（日期為建議）",
+     "stageId": "st_misc",
+     "status": "todo",
+     "owners": [
+      "p_cynthia"
+     ],
+     "reviewers": [],
+     "start": "",
+     "due": "2026-11-04",
+     "checklist": [
+      {
+       "t": "會議室預約",
+       "done": true
+      }
+     ],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 2,
+     "tags": []
+    },
+    {
+     "id": "c_meet",
+     "title": "廠商初步會議",
+     "desc": "預計 11/9 那週。（日期先抓週五）",
+     "stageId": "st_vendor",
+     "status": "todo",
+     "owners": [
+      "p_cynthia",
+      "p_melodie"
+     ],
+     "reviewers": [],
+     "start": "",
+     "due": "2026-11-13",
+     "checklist": [],
+     "deps": [
+      "c_slots"
+     ],
+     "external": true,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 3,
+     "tags": []
+    },
+    {
+     "id": "c_q",
+     "title": "會議問題清單",
+     "desc": "（日期為建議）",
+     "stageId": "st_misc",
+     "status": "done",
+     "owners": [
+      "p_cynthia"
+     ],
+     "reviewers": [],
+     "start": "",
+     "due": "2026-11-06",
+     "checklist": [
+      {
+       "t": "企劃文件格式是否適合直接對接",
+       "done": false
+      },
+      {
+       "t": "委託範圍與報價方式",
+       "done": false
+      },
+      {
+       "t": "人力配置與排程（能否 11 月啟動）",
+       "done": false
+      },
+      {
+       "t": "交付規格與回檔格式",
+       "done": false
+      },
+      {
+       "t": "資訊保護措施",
+       "done": false
+      }
+     ],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 11:43",
+       "text": "狀態：進行中 → 完成"
+      },
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 4,
+     "tags": [],
+     "doneAt": "2026-11-03"
+    },
+    {
+     "id": "c_est2d",
+     "title": "2D 規格審核、工時預估",
+     "desc": "給企劃整合後提供廠商評估。",
+     "stageId": "st_team",
+     "status": "todo",
+     "owners": [],
+     "reviewers": [],
+     "start": "",
+     "due": "2026-11-05",
+     "checklist": [],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 11:47",
+       "text": "截止日：2026-11-03 → 2026-11-05"
+      },
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 2,
+     "tags": []
+    },
+    {
+     "id": "c_estfx",
+     "title": "特效規格審核、工時預估",
+     "desc": "給企劃整合後提供廠商評估。",
+     "stageId": "st_team",
+     "status": "todo",
+     "owners": [],
+     "reviewers": [],
+     "start": "",
+     "due": "2026-11-05",
+     "checklist": [],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 11:47",
+       "text": "截止日：2026-11-03 → 2026-11-05"
+      },
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 3,
+     "tags": []
+    },
+    {
+     "id": "c_estall",
+     "title": "整合時程",
+     "desc": "整合 2D、特效工時，提供廠商評估。",
+     "stageId": "st_team",
+     "status": "todo",
+     "owners": [
+      "p_cynthia"
+     ],
+     "reviewers": [],
+     "start": "",
+     "due": "",
+     "checklist": [],
+     "deps": [
+      "c_est2d",
+      "c_estfx"
+     ],
+     "external": true,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 5,
+     "tags": []
+    },
+    {
+     "id": "c_win",
+     "title": "對外窗口",
+     "desc": "意見先由企劃＋美術窗口收斂，再由單一窗口對廠商發布。",
+     "stageId": "st_team",
+     "status": "todo",
+     "owners": [],
+     "reviewers": [],
+     "start": "",
+     "due": "2026-11-03",
+     "checklist": [
+      {
+       "t": "指派專責美術窗口",
+       "done": false
+      },
+      {
+       "t": "決定對廠商發布的單一窗口（企劃或美術）",
+       "done": false
+      }
+     ],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 1,
+     "tags": []
+    },
+    {
+     "id": "c_acc2d",
+     "title": "2D 驗收人員",
+     "desc": "負責外包 2D 圖資的規格與品質審核。",
+     "stageId": "st_team",
+     "status": "todo",
+     "owners": [],
+     "reviewers": [],
+     "start": "",
+     "due": "2026-11-03",
+     "checklist": [],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 6,
+     "tags": []
+    },
+    {
+     "id": "c_accfx",
+     "title": "特效驗收人員 ( RD、特效 )",
+     "desc": "目前由 RD 驗收特效回檔，確認是否維持並指派對接 RD 的人。",
+     "stageId": "st_team",
+     "status": "todo",
+     "owners": [],
+     "reviewers": [],
+     "start": "",
+     "due": "2026-11-03",
+     "checklist": [],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 7,
+     "tags": []
+    },
+    {
+     "id": "c_scope",
+     "title": "報價與合約",
+     "desc": "範圍、報價、排程、合約條件確認後，才知道能否 11 月啟動。",
+     "stageId": "st_vendor",
+     "status": "blocked",
+     "owners": [
+      "p_melodie"
+     ],
+     "reviewers": [],
+     "start": "",
+     "due": "",
+     "checklist": [],
+     "deps": [
+      "c_nda",
+      "c_meet"
+     ],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 12,
+     "tags": []
+    },
+    {
+     "id": "c_platform",
+     "title": "換皮平台試用",
+     "desc": "等對方開通試用帳號，和本次委託分開確認。",
+     "stageId": "st_vendor",
+     "status": "blocked",
+     "owners": [
+      "p_melodie"
+     ],
+     "reviewers": [],
+     "start": "",
+     "due": "",
+     "checklist": [],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 14,
+     "tags": []
+    },
+    {
+     "id": "c_kickoff",
+     "title": "正式啟動",
+     "desc": "目標 11 月，非確定。",
+     "stageId": "st_vendor",
+     "status": "todo",
+     "owners": [
+      "p_melodie"
+     ],
+     "reviewers": [],
+     "start": "",
+     "due": "2026-11-30",
+     "checklist": [],
+     "deps": [
+      "c_scope"
+     ],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 11:45",
+       "text": "負責人：— → 蕭妍安"
+      },
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 15,
+     "tags": []
+    },
+    {
+     "id": "c_spec",
+     "title": "規格文件 V16",
+     "desc": "\\\\wfs\\製程部門\\01_星城專案\\GameXXX_SIXSIXSIX\\企劃\\SIXSIXSIX_20261030_企劃書V16.xlsx",
+     "stageId": "st1",
+     "status": "done",
+     "owners": [
+      "p_cynthia",
+      "p_group"
+     ],
+     "reviewers": [],
+     "start": "",
+     "due": "",
+     "checklist": [],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 11:43",
+       "text": "負責人：初儀君 → 初儀君、高上人"
+      },
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 16,
+     "doneAt": "2026-10-30",
+     "tags": []
+    },
+    {
+     "id": "c_en",
+     "title": "交付廠商文件",
+     "desc": "保留現有架構，讓廠商能評估工作量並報價。",
+     "stageId": "st1",
+     "status": "doing",
+     "owners": [
+      "p_cynthia",
+      "p_group"
+     ],
+     "reviewers": [],
+     "start": "",
+     "due": "",
+     "checklist": [
+      {
+       "t": "委託範圍",
+       "done": true
+      },
+      {
+       "t": "玩法與動畫說明",
+       "done": true
+      },
+      {
+       "t": "美術風格",
+       "done": true
+      },
+      {
+       "t": "素材清單",
+       "done": true
+      },
+      {
+       "t": "交付規格",
+       "done": true
+      },
+      {
+       "t": "預期時程",
+       "done": false
+      }
+     ],
+     "deps": [],
+     "external": true,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 11:44",
+       "text": "負責人：初儀君 → 初儀君、高上人"
+      },
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 17,
+     "tags": []
+    },
+    {
+     "id": "c_rvfx",
+     "title": "特效審規格",
+     "desc": "特效審外包文件的美術需求清單與回檔規格。",
+     "stageId": "st1",
+     "status": "todo",
+     "owners": [],
+     "reviewers": [],
+     "start": "",
+     "due": "",
+     "checklist": [],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 18,
+     "tags": []
+    },
+    {
+     "id": "c_rvrd",
+     "title": "RD 規格審核",
+     "desc": "RD 審外包文件的回檔規格。",
+     "stageId": "st_team",
+     "status": "todo",
+     "owners": [],
+     "reviewers": [],
+     "start": "",
+     "due": "2026-11-05",
+     "checklist": [],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 11:47",
+       "text": "截止日：— → 2026-11-05"
+      },
+      {
+       "at": "2026-11-03 11:45",
+       "text": "階段：Excel → 分工"
+      },
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 4,
+     "tags": []
+    },
+    {
+     "id": "c_send",
+     "title": "文件交付廠商",
+     "desc": "NDA 完成後統一提供英文版企劃書與 DEMO。",
+     "stageId": "st_vendor",
+     "status": "todo",
+     "owners": [
+      "p_melodie"
+     ],
+     "reviewers": [],
+     "start": "",
+     "due": "",
+     "checklist": [],
+     "deps": [
+      "c_nda",
+      "c_en"
+     ],
+     "external": true,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 20,
+     "tags": []
+    },
+    {
+     "id": "c_art2d",
+     "title": "2D 圖資驗收",
+     "desc": "外包交付的 2D 圖資規格與品質。",
+     "stageId": "st2",
+     "status": "todo",
+     "owners": [],
+     "reviewers": [],
+     "start": "",
+     "due": "",
+     "checklist": [],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 21,
+     "tags": []
+    },
+    {
+     "id": "c_artfx",
+     "title": "特效回檔驗收",
+     "desc": "",
+     "stageId": "st5",
+     "status": "todo",
+     "owners": [],
+     "reviewers": [],
+     "start": "",
+     "due": "",
+     "checklist": [],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 22,
+     "tags": []
+    },
+    {
+     "id": "c_logo",
+     "title": "LOGO",
+     "desc": "上架素材，內部製作。",
+     "stageId": "st8",
+     "status": "todo",
+     "owners": [],
+     "reviewers": [],
+     "start": "",
+     "due": "",
+     "checklist": [],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 23,
+     "tags": []
+    },
+    {
+     "id": "c_loading",
+     "title": "Loading",
+     "desc": "上架素材，內部製作。",
+     "stageId": "st8",
+     "status": "todo",
+     "owners": [],
+     "reviewers": [],
+     "start": "",
+     "due": "",
+     "checklist": [],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 24,
+     "tags": []
+    },
+    {
+     "id": "c_info",
+     "title": "INFO",
+     "desc": "中文文本為主、內部熟悉格式，內部製作。",
+     "stageId": "st8",
+     "status": "todo",
+     "owners": [],
+     "reviewers": [],
+     "start": "",
+     "due": "",
+     "checklist": [],
+     "deps": [],
+     "external": false,
+     "remind": true,
+     "log": [
+      {
+       "at": "2026-11-03 00:00",
+       "text": "看板初始資料"
+      }
+     ],
+     "order": 25,
+     "tags": []
+    }
+   ],
+   "milestones": []
+  }
+ ],
+ "seedRev": 2
+}
